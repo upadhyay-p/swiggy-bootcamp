@@ -29,15 +29,15 @@ type Emp struct {
 }
 
 func (Emp) Eat() string {
-	return "Eating"
+	return "Eats"
 }
 
 func (Emp) Sleep() string {
-	return "Sleeping"
+	return "Sleeps"
 }
 
 func (Emp) Breath() string {
-	return "Breathing"
+	return "Breaths"
 }
 
 func Print(e Emp) {
@@ -48,7 +48,7 @@ func Print(e Emp) {
 func main() {
 	fmt.Println("Hello, Welcome!")
 
-	emps := make([]Emp, 5, 5)
+	emps := make([]Emp, 0, 5)
 
 	for true {
 		fmt.Println("Please choose a number 1 or 2")
@@ -97,7 +97,10 @@ func main() {
 
 		emps = append(emps, e)
 		fmt.Printf("EmpID: %v, Name: %s, Sal: %v, Address: %s, %s, %s, %s\n\n", e.EmpId, e.Name, e.Sal, e.Eaddr.Hno, e.Eaddr.Street, e.Eaddr.City, e.Eaddr.Pin)
-
+		fmt.Println(e.Eat())
+		fmt.Println(e.Sleep())
+		fmt.Println(e.Breath())
+		fmt.Println()
 	}
 
 }
