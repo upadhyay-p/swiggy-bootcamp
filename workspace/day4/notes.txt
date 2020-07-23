@@ -1,0 +1,22 @@
+Read ---- https://www.studytonight.com/rest-web-service/richardson-maturity-model#:~:text=The%20Richardson%20Model%20is%20a%20way%20to%20grade,has%204%20levels%20numbered%20from%200%20to%203.
+
+
+
+without go routine
+       real    0m3.007s
+       user    0m0.970s
+       sys     0m0.535s
+with go routine
+- we got no output.
+-Reason-- program got terminated before we even received the response(Asynchronous calls).
+       real    0m1.476s
+       user    0m0.892s
+       sys     0m0.491s
+
+with goroutine and sync
+-sync cause we also we want output
+    real    0m2.453s
+    user    0m0.961s
+    sys     0m0.514s
+
+
