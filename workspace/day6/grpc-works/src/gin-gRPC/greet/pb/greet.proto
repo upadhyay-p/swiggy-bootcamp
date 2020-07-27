@@ -1,0 +1,23 @@
+syntax="proto3";
+
+package greet;
+
+option go_package="greet/pb";
+
+message Customer {
+    string CustomerID=1;
+    string CustomerName=2;
+    string OrderReview=3;
+}
+
+message CustomerRequest {
+    Customer cust=1;
+}
+
+message CustomerResponse {
+    string result=1;
+}
+
+service CustomerService {
+    rpc CustomerInfo(CustomerRequest) returns (CustomerResponse) {}
+}
