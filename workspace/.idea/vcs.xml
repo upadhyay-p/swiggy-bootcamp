@@ -2,5 +2,23 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/github.com/gin-contrib/sse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/github.com/gin-gonic/gin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/github.com/go-playground/locales" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/github.com/go-playground/universal-translator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/github.com/go-playground/validator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/github.com/golang/protobuf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/github.com/leodido/go-urn" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/github.com/mattn/go-isatty" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/github.com/ugorji/go" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/golang.org/x/sys" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/google.golang.org/protobuf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/gin/src/gopkg.in/yaml.v2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day6/grpc-works/src/github.com/golang/protobuf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day6/grpc-works/src/golang.org/x/net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day6/grpc-works/src/golang.org/x/text" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day6/grpc-works/src/google.golang.org/genproto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day6/grpc-works/src/google.golang.org/grpc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day6/grpc-works/src/google.golang.org/protobuf" vcs="Git" />
   </component>
 </project>
